@@ -1,6 +1,6 @@
 # EARS Pattern in Angular(5+) and ngrx(5+)
 
-Working with EARS pattern in @ngrx is simple and straightword. This pattern can help you code and maintain @ngrx effect and its reducer function system productive.
+Working with EARS pattern in @ngrx is simple and straightforward. This pattern can help you code and maintain @ngrx effect and its reducer function system productive.
 
 Two pilot projects in this repository illustrate how to utilize [@ngrx effect](https://github.com/ngrx/platform/blob/master/docs/effects/README.md) and its reducer and [@angular](https://github.com/angular/angular-cli) application using EARS pattern.
 
