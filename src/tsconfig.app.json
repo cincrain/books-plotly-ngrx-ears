@@ -3,10 +3,27 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "module": "es2015",
-    "types": []
+    "baseUrl": "./",
+    "paths": {
+      "~/*":           ["/*"],
+      "@app/*":        ["app/*"],
+      "@containers/*": ["app/containers/*"],
+      "@core/*":       ["app/core/*"],
+      "@store/*":      ["app/core/store/*"],
+      "@shared/*":     ["app/shared/*"],
+      "@mocks/*":      ["../tests/mocks/*"],
+      "@env/*":         ["environments/*"]
+    },
+    "types": [
+      "jasmine",
+      "node"
+    ]
   },
   "exclude": [
     "src/test.ts",
     "**/*.spec.ts"
-  ]
+  ],
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false
+  }
 }

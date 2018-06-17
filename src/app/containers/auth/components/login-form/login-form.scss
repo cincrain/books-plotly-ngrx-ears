@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin: 72px 0;
+}
+
+mat-form-field {
+  width: 100%;
+  min-width: 300px;
+}
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+}
+
+.loginError {
+  width: 300px;
+  padding: 16px;
+  background-color: red;
+  color: white;
+}
+
+.loginButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

@@ -1,0 +1,27 @@
+mat-card-title,
+mat-card-content,
+mat-card-footer {
+  display: flex;
+  justify-content: center;
+}
+
+mat-card-footer {
+  padding: 5px 0;
+  color: #ff0000;
+}
+
+.mat-form-field {
+  min-width: 300px;
+}
+
+.mat-spinner {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  opacity: 0.0;
+  padding-left: 60px;
+}
+
+.mat-spinner.show {
+  opacity: 1.0;
+}
