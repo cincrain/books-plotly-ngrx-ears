@@ -4,8 +4,8 @@ Working with EARS pattern in @ngrx is simple and straightforward. This pattern c
 
 Two pilot projects in this repository illustrate how to utilize [@ngrx effect](https://github.com/ngrx/platform/blob/master/docs/effects/README.md) and its reducer and [@angular](https://github.com/angular/angular-cli) application using EARS pattern.
 
-- books-ployly-ngrx-ears
-- [echoes-player-ears](https://github.com/cincrain/echoes-player-ears)
+1. books-plotly-ngrx-ears
+2. [echoes-player-ears](https://github.com/cincrain/echoes-player-ears)
 
 ## Content
 - [EARS in @ngrx](#ears-in-@ngrx)
