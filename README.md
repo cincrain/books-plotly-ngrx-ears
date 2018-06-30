@@ -4,6 +4,9 @@ Working with EARS pattern in @ngrx is simple and straightforward. This pattern c
 
 Two pilot projects in this repository illustrate how to utilize [@ngrx effect](https://github.com/ngrx/platform/blob/master/docs/effects/README.md) and its reducer and [@angular](https://github.com/angular/angular-cli) application using EARS pattern.
 
+- books-ployly-ngrx-ears
+- [echoes-player-ears](https://github.com/cincrain/echoes-player-ears)
+
 ## Content
 - [EARS in @ngrx](#ears-in-@ngrx)
 - [Development](#Development)
@@ -118,8 +121,7 @@ EARS pattern responding to the user event is built up by the mutual interaction 
 
 Pilot projects are extended and applied using the following two resources.
 - [example-app](https://github.com/ngrx/platform) - Example application utilizing @ngrx libraries, showing common patterns and best practices. Try it on [StackBlitz](https://stackblitz.com/github/ngrx/platform/tree/61cbfe537f9df8cef3dd4a6ee0b8f483e49653f4).
-- [echoes-player](https://github.com/orizens/echoes-player) - `soon`
-  - Echos Player: the missing Media Player experience for Youtube - Built with Angular (+5), ngrx (+5), Angular CLI, Bootstrap(SASS), Youtube api. [http://echoesplayer.com](http://echoesplayer.com)
+- [echoes-player](https://github.com/orizens/echoes-player) - Echos Player: the missing Media Player experience for Youtube - Built with Angular (+5), ngrx (+5), Angular CLI, Bootstrap(SASS), Youtube api. [http://echoesplayer.com](http://echoesplayer.com)
 
 ## Conclusion
 
