@@ -1,4 +1,4 @@
-# EARS Pattern in Angular(5+) and ngrx(5+)
+# EARS Pattern in Angular 6 and ngrx 6
 
 Working with EARS pattern in @ngrx is simple and straightforward. This pattern can help you code and maintain @ngrx effect and its reducer function system productive.
 
